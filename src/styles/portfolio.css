@@ -1,0 +1,12 @@
+.portfolio {
+    min-height: 100vh;
+}
+
+.projectCard {
+    width: 18rem;
+    margin-top: 1em;
+}
+
+.projectPic {
+    height: 200px;
+}

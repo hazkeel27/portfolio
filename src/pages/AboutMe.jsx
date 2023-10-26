@@ -4,8 +4,8 @@ import pfp from '../images/pfp-pic.jpg';
 
 export default function AboutMe() {
   return (
-    <div className="container position-absolute top-50 start-50 translate-middle overflow-auto">
-      <div className="row">
+    <div className="aboutMe container position-absolute top-50 start-50 translate-middle overflow-auto">
+      <div className="aboutMe-row row">
         <div className='col-lg-6 col-md-7 col-sm-12 d-flex align-items-center justify-content-center'>
           <img className="pfp-pic img-fluid" src={pfp} alt="Profile Picture" />
         </div>

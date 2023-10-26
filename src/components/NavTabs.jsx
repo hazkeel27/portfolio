@@ -4,7 +4,7 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav className="navbar navbar-expand-sm bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark">
     <div className="container-fluid">
       <span className="navbar-brand">Hazkeel A. Qureshi</span>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
