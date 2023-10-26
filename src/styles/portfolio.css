@@ -1,9 +1,10 @@
 .portfolio {
     min-height: 100vh;
+    margin-bottom: 4em;
 }
 
 .projectCard {
-    width: 18rem;
+    width: 20rem;
     margin-top: 1em;
 }
 

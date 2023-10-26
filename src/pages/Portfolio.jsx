@@ -17,101 +17,59 @@ export default function About() {
           <img src={jate} className="img-thumbnail mb-3 projectPic" alt="jate" />
           <div className="card-body">
             <h5 className="card-title">E-Commerce-Backend</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-          </div>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">An item</li>
-            <li className="list-group-item">A second item</li>
-            <li className="list-group-item">A third item</li>
-          </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+            <p className="card-text">An installable Progressive Web Application text editor that caches data.</p>
+            <a href="https://jate-pwa-by-hazkeel-d4563377d2c2.herokuapp.com/" className="card-link">Deployed App</a><br />
+            <a href="https://github.com/hazkeel27/pwa-text-editor" className="card-link">GitHub Repository</a>
           </div>
         </div>
 
         <div className={imageClass}>
-          <img src={techblog} className="img-thumbnail mb-3 projectPic" alt="tech-blog" />
+          <img src={techblog} className="img-thumbnail mb-2 projectPic" alt="tech-blog" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-          </div>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">An item</li>
-            <li className="list-group-item">A second item</li>
-            <li className="list-group-item">A third item</li>
-          </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+            <h5 className="card-title">Tech-Blog-2.0</h5>
+            <p className="card-text">A Full stack blog post application that utilizes the MVC paradigm and requires user authentication.</p>
+            <a href="https://tech-blog-by-hazkeel-afa319c93183.herokuapp.com/" className="card-link">Deployed App</a><br />
+            <a href="https://github.com/hazkeel27/tech-blog-2.0" className="card-link">GitHub Repository</a>
           </div>
         </div>
 
         <div className={imageClass}>
           <img src={eCommerce} className="img-thumbnail mb-3 projectPic" alt="e-commerce-backend" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-          </div>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">An item</li>
-            <li className="list-group-item">A second item</li>
-            <li className="list-group-item">A third item</li>
-          </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+            <h5 className="card-title">E-Commerce-Backend</h5>
+            <p className="card-text">An e-commerce backend API built with sequelizejs using mysql database.</p>
+            <a href="https://drive.google.com/file/d/10jUaEcrJ4KpqwvfwwWy5nJIL0gdZeDRT/view" className="card-link">Application Demo</a><br />
+            <a href="https://github.com/hazkeel27/e-commerce-backend" className="card-link">GitHub Repository</a>
           </div>
         </div>
 
         <div className={imageClass}>
           <img src={socialNetwork} className="img-thumbnail mb-3 projectPic" alt="social-network-api" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-          </div>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">An item</li>
-            <li className="list-group-item">A second item</li>
-            <li className="list-group-item">A third item</li>
-          </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+            <h5 className="card-title">Social-Network-API</h5>
+            <p className="card-text">Backend API built on a NoSQL database using MongoDB and Mongoose NPM dependency.</p>
+            <a href="https://drive.google.com/file/d/1j5PwWSdAqfp0a-7-Ektc6K7UjFg3xFHB/view" className="card-link">Application Demo</a><br />
+            <a href="https://github.com/hazkeel27/social-network-api" className="card-link">GitHub Repository</a>
           </div>
         </div>
 
         <div className={imageClass}>
           <img src={sqlEmployee} className="img-thumbnail mb-3 projectPic" alt="sql-employee-tracker" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-          </div>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">An item</li>
-            <li className="list-group-item">A second item</li>
-            <li className="list-group-item">A third item</li>
-          </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+            <h5 className="card-title">SQL-Employee-Tracker</h5>
+            <p className="card-text">View and interact with MySQL databases using Content Management System (CMS) from command line.</p>
+            <a href="https://drive.google.com/file/d/1_1BuaXizdWtK82mw7pH_hvq-EYYwkUdI/view" className="card-link">Application Demo</a><br />
+            <a href="https://github.com/hazkeel27/sql-employee-tracker" className="card-link">GitHub Repository</a>
           </div>
         </div>
 
         <div className={imageClass}>
           <img src={weatherDashboard} className="img-thumbnail mb-3 projectPic" alt="weather-dashboard" />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-          </div>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">An item</li>
-            <li className="list-group-item">A second item</li>
-            <li className="list-group-item">A third item</li>
-          </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+            <h5 className="card-title">Weather-Dashboard</h5>
+            <p className="card-text">Displays current and future forecast for a searched city.</p>
+            <a href="https://hazkeel27.github.io/weather-dashboard/" className="card-link">Deployed App</a><br />
+            <a href="https://github.com/hazkeel27/weather-dashboard" className="card-link">GitHub Repository</a>
           </div>
         </div>
 
