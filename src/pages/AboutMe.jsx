@@ -5,12 +5,13 @@ import pfp from '../images/pfp-pic.jpg';
 export default function AboutMe() {
   return (
     <div className="aboutMe container position-absolute top-50 start-50 translate-middle overflow-auto">
-      <div className="aboutMe-row row">
-        <div className='col-lg-6 col-md-7 col-sm-12 d-flex align-items-center justify-content-center'>
+      <div className="row">
+        <div className='aboutMe-item col-lg-6 col-md-7 col-sm-12 d-flex align-items-center justify-content-center'>
           <img className="pfp-pic img-fluid" src={pfp} alt="Profile Picture" />
         </div>
-        <div className='col-lg-6 col-md-5 col-sm-12 d-flex align-items-center'>
+        <div className='aboutMe-item col-lg-6 col-md-5 col-sm-12 d-flex align-items-center'>
           <p>
+          <h2>About Me</h2>
           Full-Stack Developer with a passion for crafting visually captivating designs and developing data-driven applications.
           <br /><br />
           Specializing in UI/UX design, and data manipulation. Leveraging my strengths, I am excited to take on new challenges and further expand my skill set.

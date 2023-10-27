@@ -6,17 +6,18 @@ import techblog  from '../images/techblog.png';
 import weatherDashboard from '../images/weather-dashboard.png';
 import '../styles/portfolio.css';
 
-const imageClass = 'card projectCard col-sm-6 col-md-4 col-xl-3 mb-3'
+const imageClass = 'card projectCard bg-light-subtle border border-border-subtle rounded-3 col-sm-6 col-md-4 col-xl-3 mb-3'
 
 export default function About() {
   return (
     <div className='portfolio container'>
-      <div className='row justify-content-evenly'>
+      <h2 className='row d-flex justify-content-center'>Portfolio</h2> 
+      <div className='row d-flex justify-content-center'>
 
         <div className={imageClass}>
           <img src={jate} className="img-thumbnail mb-3 projectPic" alt="jate" />
           <div className="card-body">
-            <h5 className="card-title">E-Commerce-Backend</h5>
+            <h5 className="card-title">PWA-Text-Editor</h5>
             <p className="card-text">An installable Progressive Web Application text editor that caches data.</p>
             <a href="https://jate-pwa-by-hazkeel-d4563377d2c2.herokuapp.com/" className="card-link">Deployed App</a><br />
             <a href="https://github.com/hazkeel27/pwa-text-editor" className="card-link">GitHub Repository</a>
