@@ -1,57 +1,36 @@
+import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav className="navbar navbar-expand-sm bg-dark border-bottom border-body" data-bs-theme="dark">
-    <div className="container-fluid">
-      <span className="navbar-brand">Hazkeel A. Qureshi</span>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-            to="/"
-            className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-            aria-current={currentPage === '/Contact' ? 'page' : 'false'} 
-            >
+    <Navbar bg="dark" expand="lg" variant="dark" className="border-bottom border-body" data-bs-theme="dark">
+      <Container fluid>
+        <Navbar.Brand>Hazkeel A. Qureshi</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarNav" />
+        <Navbar.Collapse id="navbarNav">
+          <Nav className="me-auto">
+            <Nav.Link as={Link} to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
               About Me
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-            to="/Portfolio"
-            className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
-            aria-current={currentPage === '/Contact' ? 'page' : 'false'} 
-            >
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Portfolio" className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}>
               Portfolio
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-            to="/Resume"
-            className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
-            aria-current={currentPage === '/Contact' ? 'page' : 'false'} 
-            >
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Resume" className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>
               Resume
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-            to="/Contact"
-            className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-            aria-current={currentPage === '/Contact' ? 'page' : 'false'} 
-            >
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Contact" className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>
               Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </div>
-    </nav>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
