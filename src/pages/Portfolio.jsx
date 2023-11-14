@@ -4,7 +4,7 @@ import socialNetwork from '../images/social-network-api.png';
 import sqlEmployee from '../images/sql-employee-tracker.png';
 import techblog  from '../images/techblog.png';
 import weatherDashboard from '../images/weather-dashboard.png';
-import ekin from '../images/ekin';
+import ekin from '../images/ekin.png';
 import '../styles/portfolio.css';
 
 const imageClass = 'card projectCard bg-light-subtle border border-border-subtle rounded-3 col-sm-6 col-md-4 col-xl-3 mb-3'
