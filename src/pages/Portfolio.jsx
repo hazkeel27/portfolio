@@ -74,6 +74,16 @@ export default function About() {
           </div>
         </div>
 
+        <div className={imageClass}>
+          <img src={weatherDashboard} className="img-thumbnail mb-3 projectPic" alt="weather-dashboard" />
+          <div className="card-body">
+            <h5 className="card-title">EKIN</h5>
+            <p className="card-text">MERN Stack E-Commerce application for online apparel shopping experience.</p>
+            <a href="https://ekin555-f6889f1fc8cf.herokuapp.com/" className="card-link">Deployed App</a><br />
+            <a href="https://github.com/SanjeethTharmarajah/ekin" className="card-link">GitHub Repository</a>
+          </div>
+        </div>
+
       </div>
     </div>
   );
