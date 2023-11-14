@@ -4,6 +4,7 @@ import socialNetwork from '../images/social-network-api.png';
 import sqlEmployee from '../images/sql-employee-tracker.png';
 import techblog  from '../images/techblog.png';
 import weatherDashboard from '../images/weather-dashboard.png';
+import ekin from '../images/ekin';
 import '../styles/portfolio.css';
 
 const imageClass = 'card projectCard bg-light-subtle border border-border-subtle rounded-3 col-sm-6 col-md-4 col-xl-3 mb-3'
@@ -75,7 +76,7 @@ export default function About() {
         </div>
 
         <div className={imageClass}>
-          <img src={weatherDashboard} className="img-thumbnail mb-3 projectPic" alt="weather-dashboard" />
+          <img src={ekin} className="img-thumbnail mb-3 projectPic" alt="ekin" />
           <div className="card-body">
             <h5 className="card-title">EKIN</h5>
             <p className="card-text">MERN Stack E-Commerce application for online apparel shopping experience.</p>
